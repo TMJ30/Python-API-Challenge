@@ -7,7 +7,8 @@
 **From Professor**
 
     (%s)" % time.strftime("%Y-%m-%d") 
-
+    
+    #create liner regression graph function to be used repetitively for each graph above; prep to run each scattor again based on northern vs southern hemisphere 
     def liner_regression_plot(x_values, y_values, y_title, text_coordinates):
 
     #Set up linear regression
